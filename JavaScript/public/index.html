@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Árbol ABB - Visualización</title>
+    <link rel="stylesheet" href="../styles/style.css">
+</head>
+<body>
+
+    <h2>Árbol ABB – Visualización</h2>
+
+    <!-- Controles -->
+    <div id="controls">
+        <input
+            id="valueInput"
+            type="number"
+            placeholder="Valor a insertar"
+        />
+        <button id="insertBtn">Insertar</button>
+
+        <input
+            id="searchInput"
+            type="number"
+            placeholder="Valor a buscar"
+        />
+        <button id="searchBtn">Buscar</button>
+
+        <label>
+            Velocidad:
+            <input
+                id="speedRange"
+                type="range"
+                min="100"
+                max="1200"
+                step="100"
+                value="600"
+            />
+        </label>
+    </div>
+
+    <!-- Visualización -->
+    <div id="tree-wrapper">
+        <svg id="edges" preserveAspectRatio="none"></svg>
+        <div id="tree"></div>
+    </div>
+
+    <script type="module" src="../src/main.js"></script>
+</body>
+</html>

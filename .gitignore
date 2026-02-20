@@ -1,0 +1,76 @@
+############################
+# SISTEMA / EDITOR
+############################
+
+# VS Code
+.vscode/
+*.code-workspace
+
+# Windows
+Thumbs.db
+Desktop.ini
+
+# Mac
+.DS_Store
+
+############################
+# JAVA
+############################
+
+# Compilados
+*.class
+*.jar
+*.war
+*.ear
+
+# Logs
+*.log
+
+# Carpeta build si existe
+bin/
+build/
+out/
+
+############################
+# NODE / JAVASCRIPT
+############################
+
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Coverage
+coverage/
+
+# Build
+dist/
+
+############################
+# PYTHON
+############################
+
+# Entornos virtuales
+venv/
+env/
+.venv/
+
+# Cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+
+# Coverage
+.coverage
+htmlcov/
+
+############################
+# GENERAL
+############################
+
+# Archivos temporales
+*.tmp
+*.temp
+*.swp

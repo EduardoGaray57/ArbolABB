@@ -4,20 +4,28 @@ Repositorio educativo que contiene una **implementación de un Árbol Binario de
 
 Un Árbol Binario de Búsqueda permite organizar datos de forma jerárquica, facilitando operaciones como inserción y búsqueda de manera eficiente.
 
+[![Java](https://img.shields.io/badge/Java-ED8B00?logo=openjdk&logoColor=white)](https://www.java.com/)
+[![JavaScript](https://img.shields.io/badge/JavaScript-ES6-F7DF1E?logo=javascript&logoColor=black)](https://developer.mozilla.org/es/docs/Web/JavaScript)
+[![Python](https://img.shields.io/badge/Python-3.14-3776AB?logo=python&logoColor=white)](https://python.org/)
+
 ---
 
 ## 📁 Estructura del repositorio
-
 ```
 ArbolABB/
-├── Java-original/      # Implementación clásica del ABB en Java
-│   ├── Nodo.java
-│   ├── ABB.java
-│   ├── PruebaABB.java
-│   └── README.md       # Documentación específica de Java
-├── .gitignore
-├── LICENSE
-└── README.md           # Documentación general del repositorio
+├── Java-original/      # Implementación en Java
+│   ├── AppArbolABB.java
+│   ├── ArbolABB.java
+│   └── Nodo.java
+├── JavaScript/         # Implementación en JS + UI + tests
+│   ├── public/
+│   ├── src/
+│   ├── styles/
+│   └── ui/
+├── Python/             # Implementación en Python + pytest
+│   ├── src/
+│   └── tests/
+└── README.md
 ```
 
 ---
@@ -81,6 +89,15 @@ java PruebaABB
 - Manejo de duplicados
 - Implementaciones balanceadas (AVL, Red-Black)
 - Pruebas unitarias
+
+---
+
+## 👨‍💻 Autor
+
+**Eduardo Garay**
+- 📍 Quilicura, Santiago, Chile
+- 🔗 [LinkedIn](https://www.linkedin.com/in/eduardo-garay-9b067b16b)
+- 🐙 [GitHub](https://github.com/EduardoGaray57)
 
 ---
 
